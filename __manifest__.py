@@ -1,30 +1,23 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "modulo1",
+    'name': "extra4847933",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': "Gestión de un gimnasio",
 
-    'description': """
-        Long description of module's purpose
-    """,
+    'description': "Módulo para la gestión de un gimnasio",
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Judith Alende Martínez",
+    'website': "ead.murciaeduca.es",
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
+    'category': 'tools',
+    'version': '1.0',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
 
     # always loaded
     'data': [
-        'security/ir.model.access.csv',
+        #'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
